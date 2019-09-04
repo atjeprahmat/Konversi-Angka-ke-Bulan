@@ -1,0 +1,35 @@
+#ATJEP RAHMAT
+
+print("Konversi Angka ke Bulan oleh @atjeprahmat")
+print("*"*40)
+
+bulan_angka = int(input("Masukkan Angka : " ))
+
+if bulan_angka == 1:
+    print(bulan_angka, "Konversi Bulan ", "Januari")
+elif bulan_angka ==2:
+    print(bulan_angka, "Konversi Bulan ", "Februari")
+elif bulan_angka ==3:
+    print(bulan_angka, "Konversi Bulan ", "Maret")
+elif bulan_angka ==4:
+    print(bulan_angka, "Konversi Bulan ", "April")
+elif bulan_angka ==5:
+    print(bulan_angka, "Konversi Bulan ", "Mei")
+elif bulan_angka ==6:
+    print(bulan_angka, "Konversi Bulan ", "Juni")
+elif bulan_angka ==7:
+    print(bulan_angka, "Konversi Bulan ", "Juli")
+elif bulan_angka ==8:
+    print(bulan_angka, "Konversi Bulan ", "Agustus")
+elif bulan_angka ==9:
+    print(bulan_angka, "Konversi Bulan ", "September")
+elif bulan_angka ==10:
+    print(bulan_angka, "Konversi Bulan ", "Oktober")
+elif bulan_angka ==11:
+    print(bulan_angka, "Konversi Bulan ", "November")
+elif bulan_angka ==12:
+    print(bulan_angka, "Konversi Bulan ", "Desember")
+else:
+    print("Error, Hanya masukkan rentang angka 1 -12")
+
+print("*"*40)
